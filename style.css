@@ -10838,3 +10838,22 @@ video {
   min-width: 100%;
   z-index: -100
 }
+
+.payment-success {
+  background-image: url(shoes-pics/52112_SPBNqDcy.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: repeat;
+}
+
+.sale {
+  background-image: linear-gradient(to bottom, #84fab0, #8fd3f4);
+  background-size: 100%;
+  background-position: top left;
+  background-repeat: repeat;
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+}
