@@ -10812,29 +10812,17 @@ a.text-dark:focus {
   border: 1px solid #DFA801;
 }
 
-@media screen and (min-width: 720px) {
-
-  .case-intro h2,
-  .case-intro p,
-  .case-intro a {
-    margin-top: 1rem;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0.5rem;
-  }
+.case-intro h2,
+.case-intro p,
+.case-intro a {
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 2.5rem;
 }
 
+
 @media screen and (min-width: 873px) {
-
-  .case-intro h2,
-  .case-intro p,
-  .case-intro a {
-    margin-top: 1rem;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0.5rem;
-  }
-
   .case-intro a {
     display: block;
     padding: 5px 0;
