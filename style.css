@@ -10839,18 +10839,28 @@ video {
   z-index: -100
 }
 
-.payment-success {
-  background-image: url(shoes-pics/52112_SPBNqDcy.jpg);
+.payment-success .sale .contact .product-page {
   background-size: cover;
   background-position: center bottom;
-  background-repeat: repeat;
+  background-repeat: repeat
+}
+
+
+
+.payment-success {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .55), rgba(0, 0, 0, .25)), url(shoes-pics/52112_SPBNqDcy.jpg);
 }
 
 .sale {
   background-image: linear-gradient(to bottom, #84fab0, #8fd3f4);
-  background-size: 100%;
-  background-position: top left;
-  background-repeat: repeat;
+}
+
+.contact {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .55), rgba(0, 0, 0, .25)), url("shoes-pics/52112_vH4LBBKg.jpg");
+}
+
+.product-page {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .55), rgba(0, 0, 0, .25)), url("shoes-pics/52112_TnR3J0yn.jpg");
 }
 
 .page-hero {
