@@ -10729,3 +10729,106 @@ a.text-dark:focus {
 .fa-trash:hover {
   color: #ee2c72;
 }
+
+.case img {
+  width: 100%;
+}
+
+.case-hero {
+  content: "";
+  width: 100%;
+  height: 250px;
+}
+
+.case-intro {
+  padding: 80px;
+  background-color: #201F26 !important;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 720px) {
+  article {
+    display: flex;
+  }
+
+  .case-hero {
+    height: auto;
+    flex-basis: 50%;
+    flex-grow: 0;
+  }
+
+  .case-intro {
+    padding: 250px;
+    flex-basis: 50%;
+    flex-grow: 0;
+  }
+
+  .middle .case-hero {
+    order: 1;
+  }
+}
+
+.business {
+  background: url("shoes-pics/52112_SPBNqDcy.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.holiday {
+  background: url("shoes-pics/52112_U5BEeFXW.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.care {
+  background: url("shoes-pics/52112_UsV1HsYe.jpg") no-repeat top center;
+  background-size: cover;
+}
+
+.case-intro {
+  background-color: white;
+}
+
+.case-intro a {
+  display: block;
+  border: 3px solid #ffffff;
+  padding: 5px 0;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.4s ease-in;
+}
+
+.case-intro a:hover {
+  border: 1px solid #DFA801;
+}
+
+@media screen and (min-width: 720px) {
+
+  .case-intro h2,
+  .case-intro p,
+  .case-intro a {
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 873px) {
+
+  .case-intro h2,
+  .case-intro p,
+  .case-intro a {
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+  .case-intro a {
+    display: block;
+    padding: 5px 0;
+    width: 150px;
+    text-align: center;
+  }
+}
