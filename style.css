@@ -67,6 +67,8 @@ body {
   color: #333;
   text-align: left;
   background-color: white;
+  width: 100%;
+  height: 100%;
 }
 
 [tabindex="-1"]:focus {
@@ -10832,4 +10834,12 @@ a.text-dark:focus {
     width: 150px;
     text-align: center;
   }
+}
+
+video {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  z-index: -100
 }
