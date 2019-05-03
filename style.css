@@ -10743,13 +10743,20 @@ a.text-dark:focus {
 }
 
 .case-intro {
-  padding: 80px;
   background-color: #201F26 !important;
   color: #ffffff;
   width: 100%;
 }
 
-@media screen and (min-width: 720px) {
+.case-intro a {
+  margin-bottom: 50px;
+}
+
+.case-intro h2 {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1383px) {
   article {
     display: flex;
   }
